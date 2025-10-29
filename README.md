@@ -1,86 +1,113 @@
-🌦️ Modern Weather App
+# 🌦️ Modern Weather App
+
 A simple and fast weather app built with React and Vite. This project demonstrates modern front-end development, integrating weather data with a clean UI and excellent developer tooling (ESLint, React Hooks, and Vite).
 
-🚀 Features
-Live weather data: Fetch current weather information for any location.
+---
 
-Responsive UI: Works perfectly on both desktop and mobile devices.
+## 🚀 Features
 
-Powered by React 19 & Vite: Lightning-fast development and build times.
+- **Live weather data:** Fetch current weather information for any location.
+- **Responsive UI:** Works perfectly on both desktop and mobile devices.
+- **Powered by React 19 & Vite:** Lightning-fast development and build times.
+- **Developer-friendly:** Includes ESLint, React hooks recommendations, and fast refresh support.
+- **Easy to customize:** Modular structure, configurable for your needs.
 
-Developer-friendly: Includes ESLint, React hooks recommendations, and fast refresh support.
+---
 
-Easy to customize: Modular structure, configurable for your needs.
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-React (v19.1.1)
+- **React** (v19.1.1)
+- **Vite** (v7.1.7)
+- **ESLint** & Plugins:
+  - `eslintjs`
+  - `eslint-plugin-react-hooks`
+  - `eslint-plugin-react-refresh`
+- **Other:** `react-dom`, `vitejsplugin-react`, `globals`
 
-Vite (v7.1.7)
+See [`package.json`](./package.json) for full dependency details.
 
-ESLint & Plugins:
+---
 
-eslintjs
+## 📦 Installation
 
-eslint-plugin-react-hooks
+1. **Clone the repository:**
 
-eslint-plugin-react-refresh
+    ```
+    git clone https://github.com/your-username/moder-weather-app.git
+    cd moder-weather-app
+    ```
 
-Other: react-dom, vitejsplugin-react, globals
+2. **Install dependencies:**
 
-See package.json for full dependency details.
+    ```
+    npm install
+    ```
 
-📦 Installation
-Clone the repository:
+---
 
-bash
-git clone https://github.com/your-username/moder-weather-app.git
-cd moder-weather-app
-Install dependencies:
+## 🔧 Usage
 
-bash
-npm install
-🔧 Usage
-Development:
+- **Development:**
 
-bash
-npm run dev
-Open http://localhost:5173 to view the app in your browser.
+    ```
+    npm run dev
+    ```
+    Open [http://localhost:5173](http://localhost:5173) to view the app in your browser.
 
-Production Build:
+- **Production Build:**
 
-bash
-npm run build
-Preview Production Build:
+    ```
+    npm run build
+    ```
 
-bash
-npm run preview
-Lint the code:
+- **Preview Production Build:**
 
-bash
-npm run lint
-🌍 How it Works
-Enter a city/location.
+    ```
+    npm run preview
+    ```
 
-The app fetches live weather data from a public weather API and displays temperature, conditions, and more.
+- **Lint the code:**
 
-Smooth UI powered by React’s latest features.
+    ```
+    npm run lint
+    ```
 
-⚙️ Configuration
+---
+
+## 🌍 How it Works
+
+- Enter a city/location.
+- The app fetches live weather data from a public weather API and displays temperature, conditions, and more.
+- Smooth UI powered by React’s latest features.
+
+---
+
+## ⚙️ Configuration
+
 The app was bootstrapped with Vite and uses ESLint rules for code quality. Configuration files provided:
-
-vite.config.js for Vite setup
-
-eslint.config.js for linting setup
+- `vite.config.js` for Vite setup
+- `eslint.config.js` for linting setup
 
 You can easily extend the app with more features or enhance the design as needed.
 
-📑 License
+---
+
+## 📑 License
+
 This project is licensed under the MIT License.
 
-👏 Contributing
+---
+
+## 👏 Contributing
+
 Have suggestions, found bugs, or want to extend the app? Feel free to open issues or submit PRs!
 
-✨ Credits
+---
+
+## ✨ Credits
+
 Built with 💛 by Harshit Sharma
 Weather API by OpenWeatherAPI
+
+---
 
